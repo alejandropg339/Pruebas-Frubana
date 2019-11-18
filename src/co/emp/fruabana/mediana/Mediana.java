@@ -9,6 +9,7 @@ public class Mediana {
     public void calcularMediana() {
         // incializacion de la clase Scanner
         Scanner sc = new Scanner(System.in);
+       // Inicializamos la  excepcion
         try {
             int op = 1;
             System.out.println("Desea iniciar el programa:"
