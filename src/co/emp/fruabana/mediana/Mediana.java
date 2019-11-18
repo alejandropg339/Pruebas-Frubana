@@ -73,6 +73,7 @@ public class Mediana {
                 System.out.println("Nuevamente:  ");
                 peticion = sc.nextInt();
             }
+            //Finalizamos la excepcion
         } catch (InputMismatchException e) {
             System.out.println("Debe ser un numero entero, intentelo nuevamente");
 
